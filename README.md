@@ -13,6 +13,8 @@ Dr. Dan Ellis' excellent Matlab speech proccessing toolkit. Available: http://la
 ## Installation
 ~~~~
 git clone https://github.tamu.edu/cliberatore/SABR.git
+git submodule init
+git submodule update --recursive --remote
 ~~~~
 
 This will download SABR, PSI-utilities and ARCTIC-toolkit to your current folder, as they are included as submodules to the project.
