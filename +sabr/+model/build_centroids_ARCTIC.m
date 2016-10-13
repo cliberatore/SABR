@@ -1,4 +1,4 @@
-function [spkr] = build_centroids(speaker, processed_dir, files)
+function [spkr] = build_centroids_ARCTIC(speaker, processed_dir, files)
 %once we have everything preprocessed, we need to run through each
 %utterance and build a distribution of the phoneme centers.
 
