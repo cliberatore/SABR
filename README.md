@@ -10,6 +10,12 @@ https://github.tamu.edu/cliberatore/Kawahara-STRAIGHT.git
 ### rastamat
 Dr. Dan Ellis' excellent Matlab speech proccessing toolkit. Available: http://labrosa.ee.columbia.edu/matlab/rastamat/.
 
+### spams-matlab Sparse coding toolbox
+You will need to download the Spams-matlab toolbox and compile it for your architecture.
+http://spams-devel.gforge.inria.fr/downloads.html
+
+It needs to be placed in `.\toolboxes\spams-matlab\`. The config script will look for the built files in `.\toolboxes\spams-matlab\build\`.
+
 ## Installation
 ~~~~
 git clone https://github.tamu.edu/cliberatore/SABR.git
